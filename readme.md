@@ -27,6 +27,7 @@ which can be directly linked to from GitHub using the URL:
 
   https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/KNB.png
 
+See [the wiki](https://github.com/DataONEorg/member-node-info/wiki) for pages showing graphic details.
 
 ## Tools
 
