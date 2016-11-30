@@ -52,5 +52,5 @@ for img in $(ls originals/*.jpg); do echo ${img}; \
 
 ## A Note on Image Sizes
 
-Several of the original images that were being served up were rather large, even though they rendered width correct size and placement in the browser because the image size is specified in the containing HTML. This is very inefficient for larger images as each client must download a large image and downscale it for rendering. It is good practice to resize images appropriately before serving.
+Several of the original images that were being served up were rather large, even though they rendered with correct size and placement in the browser because the image size is specified in the containing HTML. This is very inefficient for larger images as each client must download a large image and downscale it for rendering. It is good practice to resize images appropriately before serving.
 
