@@ -46,7 +46,7 @@ To create copies of images with dimensions of no smaller than 125 pixels wide by
 
 ```bash
 for img in $(ls originals/*.jpg); do echo ${img}; \
-  convert ${img} -resize 125x40^ "$(basename ${img%.*}).png"; \
+  convert ${img} -resize 125x40^ "web/$(basename ${img%.*}).png"; \
   done
 ```
 
