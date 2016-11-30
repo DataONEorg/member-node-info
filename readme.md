@@ -70,18 +70,21 @@ for img in $(ls originals/*.jpg); do echo ${img}; \
 To generate a wiki page that lists images, their file size and pixel dimensions:
 
 ```bash
-URL="https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web"; \
-IMGS=($(ls {*.png,*.jpg}); \
-echo "--- | ---"; \
-for I in $(seq 0 2 $(expr ${#IMGS[@]} - 1)); do LNK=$(echo ${IMGS[$I]//.} | tr '[:upper:]' '[:lower:]'); \
+URL="https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/$(basename $(pwd))/";\
+IMGS=($(ls {*.png,*.jpg}));\
+echo ' ` ` | ` ` | ` `';\
+echo "--- | --- | ---"; \
+for I in $(seq 0 3 $(expr ${#IMGS[@]} - 1)); do LNK=$(echo ${IMGS[$I]//.} | tr '[:upper:]' '[:lower:]'); \
   printf "[${IMGS[$I]}](#${LNK}) | "; \
   LNK=$(echo ${IMGS[$I + 1]//.} | tr '[:upper:]' '[:lower:]'); \
-  printf "[${IMGS[$I + 1]}](#${LNK})\n"; \
+  printf "[${IMGS[$I + 1]}](#${LNK}) | "; \
+  LNK=$(echo ${IMGS[$I + 2]//.} | tr '[:upper:]' '[:lower:]'); \
+  printf "[${IMGS[$I + 2]}](#${LNK})\n"; \
   done; \
 for img in ${IMGS[@]}; do FSZ=$(exiftool -s -s -s -FileSize ${img}); \
   ISZ=$(exiftool -s -s -s -ImageSize ${img}); \
-  printf "## %s\n\n" $img; echo "File Size: ${FSZ}"; echo; \
-  echo "Image Dimensions: ${ISZ}"; echo; printf '![](%s%s)\n\n\n' ${URL} ${img}; \
+  printf "## %s\n\n" ${img}; echo "File Size: ${FSZ}"; echo; \
+  echo "Image Dimensions: ${ISZ}"; echo; printf '![](%s%s)\n\n---\n' ${URL} ${img}; \
   done
 ```
 
