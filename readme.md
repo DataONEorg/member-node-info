@@ -17,11 +17,14 @@ example, the member node:
   urn:node:KNB
 ```
 
-Has web image files named:
+Has web image file named:
 
 ```
   production/graphics/web/KNB.png
 ```
+which can be directly linked to from GitHub using the URL:
+
+  https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/KNB.png
 
 
 ## Tools
@@ -46,4 +49,8 @@ for img in $(ls originals/*.jpg); do echo ${img}; \
   convert ${img} -resize 125x40^ "$(basename ${img%.*}).png"; \
   done
 ```
+
+## A Note on Image Sizes
+
+Several of the original images that were being served up were rather large, even though they rendered width correct size and placement in the browser because the image size is specified in the containing HTML. This is very inefficient for larger images as each client must download a large image and downscale it for rendering. It is good practice to resize images appropriately before serving.
 
