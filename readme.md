@@ -31,8 +31,8 @@ which can be directly linked to from GitHub using the URL:
 
 A couple of handy tools for image introspection and manipulation:
 
-* exiftool
-* Imagemagick convert
+* [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/)
+* [Imagemagick convert](https://www.imagemagick.org/script/index.php)
 
 To generate a list of images with dimensions:
 
