@@ -50,6 +50,17 @@ for img in $(ls originals/*.jpg); do echo ${img}; \
   convert ${img} -resize 125x40^ "web/$(basename ${img%.*}).png"; \
   done
 ```
+To generate a wiki page that lists images, their file size and pixel dimensions:
+
+```bash
+for img in $(ls {*jpg,*png}); do LNK=$(echo ${img//.} | tr '[:upper:]' '[:lower:]'); \
+printf "* [${img}](#${LNK})\n"; done; \
+for img in $(ls {*jpg,*png}); do FSZ=$(exiftool -s -s -s -FileSize ${img}); \
+ISZ=$(exiftool -s -s -s -ImageSize ${img}); \
+printf "## %s\n\n" $img; echo "File Size: ${FSZ}"; echo; \
+echo "Image Dimensions: ${ISZ}"; echo; printf '![](%s%s)\n\n\n' ${URL} ${img}; done
+
+```
 
 ## A Note on Image Sizes
 
