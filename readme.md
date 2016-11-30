@@ -88,6 +88,17 @@ for img in ${IMGS[@]}; do FSZ=$(exiftool -s -s -s -FileSize ${img}); \
   done
 ```
 
+Check that a web graphic is available for each current Member Node:
+
+```bash
+NODES=($(curl -s "https://cn.dataone.org/cn/v2/node" | \
+ xml sel -t -m "//node[@type='mn']" -v "identifier" -n)); \
+for node in ${NODES[@]}; do N=${node#*:*:}; \
+  if [ -e "${N}.png" ]; then printf "%20s  OK\n" ${node}; \
+  else printf "%20s  \e[1;41mWARNING: ${N}.png not found\e[0m\n" ${node}; fi; \
+  done
+```
+
 ## A Note on Image Sizes
 
 Several of the original images that were being served up were rather large, even though they rendered with correct size and placement in the browser because the image size is specified in the containing HTML. This is very inefficient for larger images as each client must download a large image and downscale it for rendering. It is good practice to resize images appropriately before serving.
