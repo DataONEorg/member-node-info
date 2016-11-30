@@ -6,13 +6,14 @@ This repository contains information about DataONE Member Nodes that can be used
 .
 └── production          Content for the production environment
     └── graphics        Folder with Member Node icons / logos
-        ├── originals   Original images
-        ├── web         Images to be used in Web interfaces
-        └── working     Images in between original and web. Assume web images are generated automatically from these.
+        ├── originals   Original images. The image names should start with the node Id, 
+        |               but may have a suffix to clarify image characteristics.
+        ├── web         Images to be used in Web interfaces. Should be .png, minimum of 
+        |               125 wide x 40 high, and with transparency where appropriate.
+        └── working     Images in between original and web. Assume web images are generated 
+                        automatically from these.
 ```
-
-Image files are named with the node Id minues the "urn:node:" portion. So for 
-example, the member node:
+Image files are named with the node Id minues the "urn:node:" portion. So for example, the member node:
 
 ```
   urn:node:KNB
@@ -27,7 +28,7 @@ which can be directly linked to from GitHub using the URL:
 
   https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/KNB.png
 
-See [the wiki](https://github.com/DataONEorg/member-node-info/wiki) for pages showing graphic details.
+[The wiki](https://github.com/DataONEorg/member-node-info/wiki) has a couple of pages showing the images and their basic info.
 
 ## Tools
 
@@ -36,31 +37,46 @@ A couple of handy tools for image introspection and manipulation:
 * [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/)
 * [Imagemagick convert](https://www.imagemagick.org/script/index.php)
 
-To generate a list of images with dimensions:
+Quickly determine the dimensions of an image:
 
 ```bash
-for img in $(ls .); do SZ=$(exiftool -s -s -s -ImageSize ${img}); \
-  printf "%15s %10s\n" ${img} ${SZ}; done
+exiftool -ImageSize FILENAME
 ```
 
-To create copies of images with dimensions of no smaller than 125 pixels wide by
-40 pixels high while preserving preserving aspect ratio and saving as .png:
+Generate a list of images with dimensions:
+
+```bash
+for img in $(ls {*.png,*.jpg}); do \
+  SZ=$(exiftool -s -s -s -ImageSize ${img}); \
+  printf "%15s %10s\n" ${img} ${SZ}; \
+  done
+```
+
+Create a copy of an image, resizing with dimensions no smaller than 125 wide by 40 high and saving as a .png:
+
+```bash
+IMAGE="IMAGE_FILE"; \
+convert working/${IMAGE_FILE} -resize 125x40^ "web/$(basename ${IMAGE_FILE%.*}).png"
+```
+
+To create web ready copies of all images in the working folder and place them in the web folder. The resulting images have dimensions of no smaller than 125 pixels wide by 40 pixels high while preserving preserving aspect ratio and saving as .png:
 
 ```bash
 for img in $(ls originals/*.jpg); do echo ${img}; \
-  convert ${img} -resize 125x40^ "web/$(basename ${img%.*}).png"; \
+  convert working/${img} -resize 125x40^ "web/$(basename ${img%.*}).png"; \
   done
 ```
+
 To generate a wiki page that lists images, their file size and pixel dimensions:
 
 ```bash
 for img in $(ls {*jpg,*png}); do LNK=$(echo ${img//.} | tr '[:upper:]' '[:lower:]'); \
-printf "* [${img}](#${LNK})\n"; done; \
+  printf "* [${img}](#${LNK})\n"; done; \
 for img in $(ls {*jpg,*png}); do FSZ=$(exiftool -s -s -s -FileSize ${img}); \
-ISZ=$(exiftool -s -s -s -ImageSize ${img}); \
-printf "## %s\n\n" $img; echo "File Size: ${FSZ}"; echo; \
-echo "Image Dimensions: ${ISZ}"; echo; printf '![](%s%s)\n\n\n' ${URL} ${img}; done
-
+  ISZ=$(exiftool -s -s -s -ImageSize ${img}); \
+  printf "## %s\n\n" $img; echo "File Size: ${FSZ}"; echo; \
+  echo "Image Dimensions: ${ISZ}"; echo; printf '![](%s%s)\n\n\n' ${URL} ${img}; \
+  done
 ```
 
 ## A Note on Image Sizes
