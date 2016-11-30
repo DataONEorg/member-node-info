@@ -7,7 +7,8 @@ This repository contains information about DataONE Member Nodes that can be used
 └── production          Content for the production environment
     └── graphics        Folder with Member Node icons / logos
         ├── originals   Original images
-        └── web         Images to be used in Web interfaces
+        ├── web         Images to be used in Web interfaces
+        └── working     Images in between original and web. Assume web images are generated automatically from these.
 ```
 
 Image files are named with the node Id minues the "urn:node:" portion. So for 
