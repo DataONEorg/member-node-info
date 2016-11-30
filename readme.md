@@ -46,6 +46,7 @@ exiftool -ImageSize FILENAME
 Generate a list of images with dimensions:
 
 ```bash
+# cd to the folder with the images
 for img in $(ls {*.png,*.jpg}); do \
   SZ=$(exiftool -s -s -s -ImageSize ${img}); \
   printf "%15s %10s\n" ${img} ${SZ}; \
@@ -62,7 +63,8 @@ convert working/${IMAGE_FILE} -resize 125x40^ "web/$(basename ${IMAGE_FILE%.*}).
 To create web ready copies of all images in the working folder and place them in the web folder. The resulting images have dimensions of no smaller than 125 pixels wide by 40 pixels high while preserving preserving aspect ratio and saving as .png:
 
 ```bash
-for img in $(ls originals/*.jpg); do echo ${img}; \
+# cd to the graphics folder
+for img in $(ls working/{*.jpg,*.png}); do echo ${img}; \
   convert working/${img} -resize 125x40^ "web/$(basename ${img%.*}).png"; \
   done
 ```
@@ -70,6 +72,7 @@ for img in $(ls originals/*.jpg); do echo ${img}; \
 To generate a wiki page that lists images, their file size and pixel dimensions:
 
 ```bash
+#cd to the folder containing the images
 URL="https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/$(basename $(pwd))/";\
 IMGS=($(ls {*.png,*.jpg}));\
 echo ' ` ` | ` ` | ` `';\
@@ -88,9 +91,10 @@ for img in ${IMGS[@]}; do FSZ=$(exiftool -s -s -s -FileSize ${img}); \
   done
 ```
 
-Check that a web graphic is available for each current Member Node:
+Check that a web graphic is available for each current Member Node (requires [xmlstarlet](http://xmlstar.sourceforge.net/) installed as `xml`):
 
 ```bash
+#cd to the web folder
 NODES=($(curl -s "https://cn.dataone.org/cn/v2/node" | \
  xml sel -t -m "//node[@type='mn']" -v "identifier" -n)); \
 for node in ${NODES[@]}; do N=${node#*:*:}; \
