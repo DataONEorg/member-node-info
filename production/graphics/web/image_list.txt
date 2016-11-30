@@ -4,7 +4,7 @@
    CLOEBIRD.png     182x40
         DFC.png     202x40
       DRYAD.png     125x70
-       EDAC.png     172x40
+ EDACGSTORE.png     172x40
       EDORA.png    125x125
         ESA.png     125x63
       GLEON.png     125x46
@@ -14,7 +14,7 @@
         KNB.png    125x125
        KUBI.png     151x40
        LTER.png    125x158
-    LTER_EU.png     125x49
+LTER_EUROPE.png     125x49
        NCEI.png    125x123
        NEON.png     125x50
         NKN.png     164x40
@@ -23,7 +23,7 @@
    ONEShare.png     222x40
    ORNLDAAC.png     206x40
       PISCO.png     142x40
-      PPBio.png     125x98
+      PPBIO.png     125x98
        RD2R.png    125x125
         RGD.png    125x128
    SANPARKS.png    125x125
@@ -32,5 +32,5 @@
        TERN.png    125x113
        TFRI.png    125x125
      USANPN.png     130x40
-   USGSCSAS.png     125x46
+   USGS_SDC.png     125x46
      US_MPC.png     125x43
