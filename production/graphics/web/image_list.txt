@@ -9,6 +9,7 @@
         ESA.png     125x63
       GLEON.png     125x46
         GOA.png     125x45
+     GRIIDC.png     125x91
        IARC.png    125x109
         IOE.png     125x52
         KNB.png    125x125
