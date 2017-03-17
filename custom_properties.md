@@ -10,7 +10,7 @@ The following custom properties are used by systems such as the DataONE [search 
 
 ### `CN_node_name`
 
-XPath location: 
+XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mnDemo6": 
  
 ```
   //node[identifier/text()='${NODE_ID}']/property[@key='CN_node_name']
@@ -25,11 +25,38 @@ Example XML node document snippet
 
 ### `CN_operational_status`
 
+XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mnDemo6": 
+ 
+```
+  //node[identifier/text()='${NODE_ID}']/property[@key='CN_operational_status']
+```
+
+
 ### `CN_date_joined`
+
+XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mnDemo6": 
+ 
+```
+  //node[identifier/text()='${NODE_ID}']/property[@key='CN_date_joined']
+```
+
 
 ### `CN_logo_url`
 
+XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mnDemo6": 
+ 
+```
+  //node[identifier/text()='${NODE_ID}']/property[@key='CN_logo_url']
+```
+
+
 ### `CN_info_url`
+
+XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mnDemo6": 
+ 
+```
+  //node[identifier/text()='${NODE_ID}']/property[@key='CN_info_url']
+```
 
 
 ## Miscellaneous
