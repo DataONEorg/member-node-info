@@ -7,6 +7,7 @@ urn:node:ARCTIC:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:BCODMO:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -15,6 +16,7 @@ urn:node:BCODMO:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:CDL:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -23,6 +25,7 @@ urn:node:CDL:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:CLOEBIRD:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -31,6 +34,7 @@ urn:node:CLOEBIRD:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: deprecated
+
 urn:node:DRYAD:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -39,6 +43,7 @@ urn:node:DRYAD:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:EDACGSTORE:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -47,6 +52,7 @@ urn:node:EDACGSTORE:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:EDORA:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -55,6 +61,7 @@ urn:node:EDORA:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:ESA:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -63,6 +70,7 @@ urn:node:ESA:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:GLEON:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -71,6 +79,7 @@ urn:node:GLEON:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:GOA:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -79,6 +88,7 @@ urn:node:GOA:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:GRIIDC:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -87,6 +97,7 @@ urn:node:GRIIDC:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:GULFWATCH:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -95,6 +106,7 @@ urn:node:GULFWATCH:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: null
+
 urn:node:IARC:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -103,6 +115,7 @@ urn:node:IARC:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:IOE:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -111,6 +124,7 @@ urn:node:IOE:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:KNB:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -119,6 +133,7 @@ urn:node:KNB:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:KUBI:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -127,6 +142,7 @@ urn:node:KUBI:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:LTER:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -135,6 +151,7 @@ urn:node:LTER:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:LTER_EUROPE:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -143,6 +160,7 @@ urn:node:LTER_EUROPE:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:NCEI:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -151,6 +169,7 @@ urn:node:NCEI:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:NEON:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -159,6 +178,7 @@ urn:node:NEON:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:NKN:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -167,6 +187,7 @@ urn:node:NKN:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:NMEPSCOR:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -175,6 +196,7 @@ urn:node:NMEPSCOR:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:NRDC:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -183,6 +205,7 @@ urn:node:NRDC:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:ONEShare:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -191,6 +214,7 @@ urn:node:ONEShare:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:ORNLDAAC:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -199,6 +223,7 @@ urn:node:ORNLDAAC:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:PISCO:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -207,6 +232,7 @@ urn:node:PISCO:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:PPBIO:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -215,6 +241,7 @@ urn:node:PPBIO:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:R2R:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -223,6 +250,7 @@ urn:node:R2R:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:RGD:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -231,6 +259,7 @@ urn:node:RGD:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:SANPARKS:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -239,6 +268,7 @@ urn:node:SANPARKS:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:SEAD:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -247,6 +277,7 @@ urn:node:SEAD:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:TDAR:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -255,6 +286,7 @@ urn:node:TDAR:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:TERN:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -263,6 +295,7 @@ urn:node:TERN:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:TFRI:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -271,6 +304,7 @@ urn:node:TFRI:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:USANPN:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -279,6 +313,7 @@ urn:node:USANPN:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:USGSCSAS:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -287,6 +322,7 @@ urn:node:USGSCSAS:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: deprecated
+
 urn:node:USGS_SDC:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -295,6 +331,7 @@ urn:node:USGS_SDC:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:US_MPC:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -303,6 +340,7 @@ urn:node:US_MPC:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: operational
+
 urn:node:mnORC1:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -311,6 +349,7 @@ urn:node:mnORC1:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: replicator
+
 urn:node:mnORC2:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -319,6 +358,7 @@ urn:node:mnORC2:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: deprecated
+
 urn:node:mnUCSB1:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -327,6 +367,7 @@ urn:node:mnUCSB1:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: replicator
+
 urn:node:mnUNM1:
   CN_date_deprecated: null
   CN_date_operational: null
@@ -335,6 +376,7 @@ urn:node:mnUNM1:
   CN_logo_url: null
   CN_node_name: null
   CN_operational_status: replicator
+
 urn:node:mnUNM2:
   CN_date_deprecated: null
   CN_date_operational: null
