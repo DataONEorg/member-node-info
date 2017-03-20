@@ -24,7 +24,7 @@ curl -s "https://cn.dataone.org/cn/v2/node" | \
 
 The following custom properties are used by systems such as the DataONE [search interface](https://search.dataone.org) and [Member Node dashboard](https://www.dataone.org/current-member-nodes).
 
-For properties that express a date, these MUST be in UTC and formatted as ISO-8601 (`YYYY-MM-DDTHH:mm:ss.sssZ`). If the time portion is unknown, then substitute `12:00:00.000`. Example:
+For properties that express a date, these MUST be in UTC and formatted as ISO-8601 (`YYYY-MM-DDTHH:mm:ss.sssZ`). If the time portion is unknown, then substitute `00:00:00.000`. Example:
 
 ```
 2017-03-20T15:25:53.514Z
