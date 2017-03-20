@@ -4,10 +4,6 @@ Member Nodes generally control the content available in the Member Node document
 
 Custom properties set by the Coordinating Nodes MUST be prefixed by `CN_`. Such properties will be preserved through updates to the node registration.
 
-## Preferred Custom Properties
-
-The following custom properties are used by systems such as the DataONE [search interface](https://search.dataone.org) and [Member Node dashboard](https://www.dataone.org/current-member-nodes).
-
 The value of the custom property `${PROPERTY}` for the Member Node `${NODE_ID}` can be determined from the DataONE [list nodes API](https://releases.dataone.org/online/api-documentation-v2.0/apis/CN_APIs.html#CNCore.listNodes) with the following XPath statement:
 
 ```
@@ -24,7 +20,11 @@ curl -s "https://cn.dataone.org/cn/v2/node" | \
   -m "//node[identifier/text()='${NODE_ID}']/property[@key='${PROPERTY}']" -v "."
 ```
 
-All dates MUST be in UTC and formatted as ISO-8601 (`YYYY-MM-DDTHH:mm:ss.sssZ`). If the time portion is unknown, then substitute `12:00:00.000`. Example:
+## Preferred Custom Properties
+
+The following custom properties are used by systems such as the DataONE [search interface](https://search.dataone.org) and [Member Node dashboard](https://www.dataone.org/current-member-nodes).
+
+For properties that express a date, these MUST be in UTC and formatted as ISO-8601 (`YYYY-MM-DDTHH:mm:ss.sssZ`). If the time portion is unknown, then substitute `12:00:00.000`. Example:
 
 ```
 2017-03-20T15:25:53.514Z
