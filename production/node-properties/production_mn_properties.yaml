@@ -1,7 +1,7 @@
 ---
 urn:node:ARCTIC:
   CN_date_deprecated: null
-  CN_date_operational: null
+  CN_date_operational: 2016-12-01T00:00:0.000Z
   CN_date_upcoming: null
   CN_info_url: null
   CN_logo_url: null
@@ -10,7 +10,7 @@ urn:node:ARCTIC:
 
 urn:node:BCODMO:
   CN_date_deprecated: null
-  CN_date_operational: null
+  CN_date_operational: 2016-11-29T00:00:0.000Z
   CN_date_upcoming: null
   CN_info_url: null
   CN_logo_url: null
@@ -19,7 +19,7 @@ urn:node:BCODMO:
 
 urn:node:CDL:
   CN_date_deprecated: null
-  CN_date_operational: null
+  CN_date_operational: 2012-07-23T00:00:0.000Z
   CN_date_upcoming: null
   CN_info_url: null
   CN_logo_url: null
@@ -37,7 +37,7 @@ urn:node:CLOEBIRD:
 
 urn:node:DRYAD:
   CN_date_deprecated: null
-  CN_date_operational: null
+  CN_date_operational: 2014-02-22T00:00:0.000Z
   CN_date_upcoming: null
   CN_info_url: null
   CN_logo_url: null
@@ -46,7 +46,7 @@ urn:node:DRYAD:
 
 urn:node:EDACGSTORE:
   CN_date_deprecated: null
-  CN_date_operational: null
+  CN_date_operational: 2014-06-23T00:00:0.000Z
   CN_date_upcoming: null
   CN_info_url: null
   CN_logo_url: null
@@ -55,7 +55,7 @@ urn:node:EDACGSTORE:
 
 urn:node:EDORA:
   CN_date_deprecated: null
-  CN_date_operational: null
+  CN_date_operational: 2014-11-24T00:00:0.000Z
   CN_date_upcoming: null
   CN_info_url: null
   CN_logo_url: null
