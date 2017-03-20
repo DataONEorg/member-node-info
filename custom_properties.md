@@ -30,14 +30,36 @@ XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mn
 ```
   //node[identifier/text()='${NODE_ID}']/property[@key='CN_operational_status']
 ```
+Indicates the current operational status of the Member Node. The value can be one of:
 
+`operational`: The Member Node is operational and contributing content
+`replication`: The Member Node is operational but acts only as a replication target
+`upcoming`: The Member Node is anticipated to be operational "soon".
+`developing`: The Member Node is under active development and testing, should not be shown on dashboard or UI
+`deprecated`: The Member Node has been deprecated and is no longer actively participating in the DataONE environment
 
-### `CN_date_joined`
+### `CN_date_operational`
 
 XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mnDemo6": 
  
 ```
-  //node[identifier/text()='${NODE_ID}']/property[@key='CN_date_joined']
+  //node[identifier/text()='${NODE_ID}']/property[@key='CN_date_operational']
+```
+
+### `CN_date_upcoming`
+
+XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mnDemo6": 
+ 
+```
+  //node[identifier/text()='${NODE_ID}']/property[@key='CN_date_upcoming']
+```
+
+### `CN_date_deprecated`
+
+XPath location, ${NODE_ID} is replaced by the node identifier, e.g. "urn:node:mnDemo6": 
+ 
+```
+  //node[identifier/text()='${NODE_ID}']/property[@key='CN_date_deprecated']
 ```
 
 
