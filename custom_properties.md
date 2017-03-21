@@ -137,5 +137,5 @@ d1nodeprops -I "urn:node:KNB" -k "CN_logo_url" -p "SOME PASSWORD" -o update \
 To list the custom properties that have been set for a Member Node:
 
 ```bash
-d1nodepros -I "urn:node:KNB" -p "SOME PASSWORD"
+d1nodeprops -I "urn:node:KNB" -p "SOME PASSWORD"
 ```
