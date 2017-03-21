@@ -2,7 +2,7 @@
 
 Member Nodes generally control the content available in the Member Node document provided through the [/node](https://cn.dataone.org/cn/v2/node) service. This document describes custom properties that may be set by the Coordinating Nodes to augment the information provided by the Member Nodes. Such custom properties are not over-written by a Member Node when the Member Node registration information is updated.
 
-Custom properties set by the Coordinating Nodes MUST be prefixed by `CN_`. Such properties will be preserved through updates to the node registration.
+Custom properties set by the Coordinating Nodes MUST be prefixed by `CN_`. Such properties will be preserved through updates to the node registration. Note that the string "CN_" has no meaning other than to act as a mechanism for distinguishing custom properties from other properties that may be set by the MN.
 
 The value of the custom property `${PROPERTY}` for the Member Node `${NODE_ID}` can be determined from the DataONE [list nodes API](https://releases.dataone.org/online/api-documentation-v2.0/apis/CN_APIs.html#CNCore.listNodes) with the following XPath statement:
 
