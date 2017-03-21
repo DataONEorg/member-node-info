@@ -100,7 +100,7 @@ Example:
 
 ### `CN_logo_url`
 
-The URL of the logo that is to be shown for the Member Node in user ingterfaces. Note that the protocol SHOULD be `https`.
+The URL of the logo that is to be shown for the Member Node in user interfaces. Note that the protocol SHOULD be `https`.
 
 Example:
 
