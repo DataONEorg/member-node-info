@@ -13,11 +13,12 @@ The value of the custom property `${PROPERTY}` for the Member Node `${NODE_ID}` 
 For example, using `curl` and `xmlstarlet`:
 
 ```bash
-NODE_ID="urn:node:mnDemo6"
-PROPERTY="CN_node_name"
+NODE_ID="urn:node:KNB"
+PROPERTY="CN_date_operational"
 curl -s "https://cn.dataone.org/cn/v2/node" | \
   xml sel -t \
   -m "//node[identifier/text()='${NODE_ID}']/property[@key='${PROPERTY}']" -v "."
+2012-07-23T00:00:0.000Z
 ```
 
 ## Preferred Custom Properties
