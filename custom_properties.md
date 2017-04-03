@@ -21,6 +21,9 @@ curl -s "https://cn.dataone.org/cn/v2/node" | \
 2012-07-23T00:00:0.000Z
 ```
 
+Note that in order to set any properties, the node must be registered. Furthermore, for the node to appear in the node list, it is necessary for the node to be approved. This is potentially problematic for nodes that are "upcoming" (i.e. `CN_operational_status = upcoming`) since such nodes should initially not be synchronizing. As such, it is necessary for an upcoming Member Node to be registered and approved, but with services flagged as being off. In order to prevent a node from accidentally setting node state to allow active harvesting, it is recommended that the initial node registration is created by a different subject to the node operator. This issue will be addressed in a later release of the infrastructure [#8058](https://redmine.dataone.org/issues/8058).
+
+
 ## Preferred Custom Properties
 
 The following custom properties are used by systems such as the DataONE [search interface](https://search.dataone.org) and [Member Node dashboard](https://www.dataone.org/current-member-nodes).
