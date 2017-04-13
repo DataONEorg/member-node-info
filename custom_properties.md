@@ -119,7 +119,7 @@ A URL that provides additional information about the Member Node and its host. T
 Example:
 
 ```xml
-<property key="CN_logo_url">https://knb.ecoinformatics.org/</property>
+<property key="CN_info_url">https://knb.ecoinformatics.org/</property>
 ```
 
 
