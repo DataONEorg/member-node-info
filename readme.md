@@ -9,7 +9,7 @@ This repository contains information about DataONE Member Nodes that can be used
         ├── originals   Original images. The image names should start with the node Id, 
         |               but may have a suffix to clarify image characteristics.
         ├── web         Images to be used in Web interfaces. Should be .png, minimum of 
-        |               125 wide x 40 high, and with transparency where appropriate.
+        |               125 wide x 40 high, and with transparent background and cropped.
         └── working     Images in between original and web. Assume web images are generated 
                         automatically from these.
 ```
