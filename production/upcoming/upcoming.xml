@@ -74,7 +74,7 @@
     <!--
     Set this to be the displayed name of the upcoming Member Node
     -->
-    <property key="CN_node_name">Pangaea Data Publisher for Earch and Environmental Science</property>
+    <property key="CN_node_name">Pangaea Data Publisher for Earth and Environmental Science</property>
 
     <!--
     Location specified as WGS84 longitude, latitude
