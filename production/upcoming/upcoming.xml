@@ -120,7 +120,7 @@
   </node>
 
   <node replicate="false" synchronize="false" type="mn" state="down">
-    <identifier>urn:node:OTS</identifier>
+    <identifier>urn:node:OTS_NDC</identifier>
     <name>Organization for Tropical Studies</name>
     <description>Organization for Tropical Studies</description>
 
@@ -146,11 +146,11 @@
       <lastHarvested>2017-10-25T03:00:08.167+00:00</lastHarvested>
       <lastCompleteHarvest>1900-01-01T00:00:00.000+00:00</lastCompleteHarvest>
     </synchronization>
-    <subject>CN=urn:node:OTS,DC=dataone,DC=org</subject>
+    <subject>CN=urn:node:OTS_NDC,DC=dataone,DC=org</subject>
     <contactSubject>CN=Carolina Murica, O=Google, C=US, DC=cilogon, DC=org</contactSubject>
     <property key="CN_date_upcoming">2018-02-02T14:30:00</property>
     <property key="CN_info_url">http://www.ots.ac.cr/</property>
-    <property key="CN_logo_url">https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/OTS.png</property>
+    <property key="CN_logo_url">https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/OTS_NDC.png</property>
     <property key="CN_date_operational">2020-01-01T00:00:00</property>
     <property key="CN_operational_status">upcoming</property>
     <property key="CN_node_name">Organization for Tropical Studies</property>
