@@ -1,4 +1,7 @@
-This repository contains information about DataONE Member Nodes that can be used for presentations, web sites, and other fora where Member Nodes are being presented.
+This repository contains information about DataONE Member Nodes that can be used for presentations, web sites, and other fora where Member Nodes are being presented such as the [DataONE Search](https://search.dataone.org) pages and the [public web site](https://dataone.org).
+
+The workflow for changes appearing on the public web site is available in a [Google Doc](https://docs.google.com/document/d/1HNDdNqFANNd_dRQQPnM68vpNawKE5cc6wVc88fOb6h8/edit?usp=sharing).
+
 
 ## Files and Folders
 
@@ -30,7 +33,6 @@ which can be directly linked to from GitHub using the URL:
 
 [The wiki](https://github.com/DataONEorg/member-node-info/wiki) has a couple of pages showing the images and their basic info.
 
-The workflow for changes appearing on the public web site is available in a [Google Doc](https://docs.google.com/document/d/1HNDdNqFANNd_dRQQPnM68vpNawKE5cc6wVc88fOb6h8/edit?usp=sharing).
 
 
 ## Tools
