@@ -30,6 +30,9 @@ which can be directly linked to from GitHub using the URL:
 
 [The wiki](https://github.com/DataONEorg/member-node-info/wiki) has a couple of pages showing the images and their basic info.
 
+The workflow for changes appearing on the public web site is available in a [Google Doc](https://docs.google.com/document/d/1HNDdNqFANNd_dRQQPnM68vpNawKE5cc6wVc88fOb6h8/edit?usp=sharing).
+
+
 ## Tools
 
 A couple of handy tools for image introspection and manipulation:
