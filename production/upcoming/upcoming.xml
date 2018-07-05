@@ -39,4 +39,76 @@
     <property key="CN_location_lonlat">12.56,55.70</property>
   </node>
 
+<!--
+  <node replicate="false" synchronize="false" type="mn" state="down">
+    <identifier>urn:node:IEDA_EARTHCHEM</identifier>
+    <name>IEDA EarthChem Repository</name>
+    <description>IEDA is an alliance of science community focused repository systems.</description>
+    <baseURL>https://gmn.dataone.org/IEDA_EARTHCHEM</baseURL>
+    <services>
+      <service name="MNCore" version="v1" available="false"/>
+      <service name="MNRead" version="v1" available="false"/>
+      <service name="MNAuthorization" version="v1" available="false"/>
+      <service name="MNStorage" version="v1" available="false"/>
+      <service name="MNReplication" version="v1" available="false"/>
+      <service name="MNCore" version="v2" available="false"/>
+      <service name="MNRead" version="v2" available="false"/>
+      <service name="MNAuthorization" version="v2" available="false"/>
+      <service name="MNStorage" version="v2" available="false"/>
+      <service name="MNReplication" version="v2" available="false"/>
+    </services>
+    <synchronization>
+      <schedule hour="*" mday="*" min="42" mon="*" sec="0" wday="?" year="*"/>
+      <lastHarvested>2017-10-25T03:00:08.167+00:00</lastHarvested>
+      <lastCompleteHarvest>1900-01-01T00:00:00.000+00:00</lastCompleteHarvest>
+    </synchronization>
+    <subject>CN=urn:node:IEDA_EARTHCHEM,DC=dataone,DC=org</subject>
+    <contactSubject>CN=Monica Ihli A179626, O=Google, C=US, DC=cilogon, DC=org</contactSubject>
+    <property key="CN_date_upcoming">2018-07-05T19:20:00</property>
+    <property key="CN_info_url">http://www.iedadata.org//</property>
+    <property key="CN_logo_url"></property>
+    <property key="CN_date_operational">2020-01-01T00:00:00</property>
+    <property key="CN_operational_status">upcoming</property>
+    <property key="CN_node_name">IEDA EarthChem Repository</property>
+    <property key="CN_location_lonlat">-73.91,41.01</property>
+  </node>
+  -->
+
+  <node replicate="false" synchronize="false" type="mn" state="down">
+    <identifier>urn:node:CYVERSE</identifier>
+    <name>CyVerse</name>
+    <description>CyVerse provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery. Our extensible platforms provide data storage, bioinformatics tools, image analyses, cloud services, APIs, and more.</description>
+
+    <!-- The service base url of the Member Node -->
+    <baseURL>http://www.cyverse.org/</baseURL>
+
+    <!-- Not used, by dashboard, included for valid XML-->
+    <services>
+      <service name="MNCore" version="v1" available="false"/>
+      <service name="MNRead" version="v1" available="false"/>
+      <service name="MNAuthorization" version="v1" available="false"/>
+      <service name="MNStorage" version="v1" available="false"/>
+      <service name="MNReplication" version="v1" available="false"/>
+      <service name="MNCore" version="v2" available="false"/>
+      <service name="MNRead" version="v2" available="false"/>
+      <service name="MNAuthorization" version="v2" available="false"/>
+      <service name="MNStorage" version="v2" available="false"/>
+      <service name="MNReplication" version="v2" available="false"/>
+    </services>
+    <!-- ignored by the dashboard -->
+    <synchronization>
+      <schedule hour="*" mday="*" min="42" mon="*" sec="0" wday="?" year="*"/>
+      <lastHarvested>2017-10-25T03:00:08.167+00:00</lastHarvested>
+      <lastCompleteHarvest>1900-01-01T00:00:00.000+00:00</lastCompleteHarvest>
+    </synchronization>
+    <subject>CN=urn:node:CYVERSE,DC=dataone,DC=org</subject>
+    <contactSubject>CN=Monica Ihli A179626, O=Google, C=US, DC=cilogon, DC=org</contactSubject>
+    <property key="CN_date_upcoming">2018-07-05T19:20:00</property>
+    <property key="CN_info_url">http://www.cyverse.org/</property>
+    <property key="CN_logo_url"></property>
+    <property key="CN_date_operational">2020-01-01T00:00:00</property>
+    <property key="CN_operational_status">upcoming</property>
+    <property key="CN_node_name">CyVerse</property>
+    <property key="CN_location_lonlat">-110.93,32.22</property>
+  </node>
 </ns3:nodeList>
