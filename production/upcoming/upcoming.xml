@@ -105,7 +105,7 @@
     <contactSubject>CN=Monica Ihli A179626, O=Google, C=US, DC=cilogon, DC=org</contactSubject>
     <property key="CN_date_upcoming">2018-07-05T19:20:00</property>
     <property key="CN_info_url">http://www.cyverse.org/</property>
-    <property key="CN_logo_url"></property>
+    <property key="CN_logo_url">https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/CYVERSE.png</property>
     <property key="CN_date_operational">2020-01-01T00:00:00</property>
     <property key="CN_operational_status">upcoming</property>
     <property key="CN_node_name">CyVerse</property>
