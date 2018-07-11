@@ -39,7 +39,6 @@
     <property key="CN_location_lonlat">12.56,55.70</property>
   </node>
 
-<!--
   <node replicate="false" synchronize="false" type="mn" state="down">
     <identifier>urn:node:IEDA_EARTHCHEM</identifier>
     <name>IEDA EarthChem Repository</name>
@@ -64,15 +63,15 @@
     </synchronization>
     <subject>CN=urn:node:IEDA_EARTHCHEM,DC=dataone,DC=org</subject>
     <contactSubject>CN=Monica Ihli A179626, O=Google, C=US, DC=cilogon, DC=org</contactSubject>
-    <property key="CN_date_upcoming">2018-07-05T19:20:00</property>
+    <property key="CN_date_upcoming">2018-07-11T19:20:00</property>
     <property key="CN_info_url">http://www.iedadata.org//</property>
-    <property key="CN_logo_url"></property>
+    <property key="CN_logo_url">https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/IEDA.png</property>
     <property key="CN_date_operational">2020-01-01T00:00:00</property>
     <property key="CN_operational_status">upcoming</property>
     <property key="CN_node_name">IEDA EarthChem Repository</property>
     <property key="CN_location_lonlat">-73.91,41.01</property>
   </node>
-  -->
+
 
   <node replicate="false" synchronize="false" type="mn" state="down">
     <identifier>urn:node:CYVERSE</identifier>
