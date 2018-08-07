@@ -139,5 +139,11 @@
     <ping success="true" lastSuccess="2018-08-02T16:33:07.072+00:00"/>
     <subject>CN=urn:node:ESS_DIVE,DC=dataone,DC=org</subject>
     <contactSubject>http://orcid.org/0000-0001-9061-8952</contactSubject>
+    <property key="CN_node_name">ESS-DIVE: Deep Insight for Earth Science Data</property>
+    <property key="CN_location_lonlat">-122.2528,37.8758</property>
+    <property key="CN_info_url">https://ess-dive.lbl.gov</property>
+    <property key="CN_logo_url">https://github.com/DataONEorg/member-node-info/raw/master/production/graphics/web/ESS_DIVE.png</property>
+    <property key="CN_date_upcoming">2018-08-07T00:00:00</property>
+    <property key="CN_operational_status">upcoming</property>
   </node>
 </ns3:nodeList>
