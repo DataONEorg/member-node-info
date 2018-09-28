@@ -147,7 +147,7 @@
     <property key="CN_date_operational">2020-01-01T00:00:00</property>
     <property key="CN_operational_status">upcoming</property>
     <property key="CN_node_name">Cary Institute of Ecosystem Studies</property>
-    <property key="CN_location_lonlat">0.12,51.50</property>
+    <property key="CN_location_lonlat">-73.73,41.78</property>
   </node>
   
 </ns3:nodeList>
