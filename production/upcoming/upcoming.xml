@@ -139,7 +139,7 @@
       <lastHarvested>2017-10-25T03:00:08.167+00:00</lastHarvested>
       <lastCompleteHarvest>1900-01-01T00:00:00.000+00:00</lastCompleteHarvest>
     </synchronization>
-    <subject>CN=urn:node:CYVERSE,DC=dataone,DC=org</subject>
+    <subject>CN=urn:node:FIGSHARE_CARY,DC=dataone,DC=org</subject>
     <contactSubject>CN=Monica Ihli A179626, O=Google, C=US, DC=cilogon, DC=org</contactSubject>
     <property key="CN_date_upcoming">2018-09-28T10:00:00</property>
     <property key="CN_info_url">https://www.caryinstitute.org/</property>
