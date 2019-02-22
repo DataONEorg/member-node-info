@@ -112,15 +112,12 @@
   </node>
   
 
+ <!--
   <node replicate="false" synchronize="false" type="mn" state="down">
     <identifier>urn:node:FIGSHARE_CARY</identifier>
     <name>Cary Institute of Ecosystem Studies</name>
     <description>Cary Institute of Ecosystem Studies generates rigorous scientific knowledge about ecological systems and their importance to human well-being.</description>
-
-    <!-- The service base url of the Member Node -->
     <baseURL>https://figshare-orc-1.test.dataone.org/mn</baseURL>
-
-    <!-- Not used, by dashboard, included for valid XML-->
     <services>
       <service name="MNCore" version="v1" available="false"/>
       <service name="MNRead" version="v1" available="false"/>
@@ -133,7 +130,6 @@
       <service name="MNStorage" version="v2" available="false"/>
       <service name="MNReplication" version="v2" available="false"/>
     </services>
-    <!-- ignored by the dashboard -->
     <synchronization>
       <schedule hour="*" mday="*" min="42" mon="*" sec="0" wday="?" year="*"/>
       <lastHarvested>2017-10-25T03:00:08.167+00:00</lastHarvested>
@@ -149,7 +145,8 @@
     <property key="CN_node_name">Cary Institute of Ecosystem Studies</property>
     <property key="CN_location_lonlat">-73.73,41.78</property>
   </node>
-
+  -->
+  
   <!--  
   <node replicate="false" synchronize="false" type="mn" state="down">
     <identifier>urn:node:CAS_CERN</identifier>
