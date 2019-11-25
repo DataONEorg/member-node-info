@@ -82,8 +82,8 @@
 
   <node replicate="false" synchronize="false" type="mn" state="down">
     <identifier>urn:node:ARM</identifier>
-    <name>ARM - Atmospheric Radiation Measurement</name>
-    <description>Data collected through the routine operations and scientific field experiments of the ARM Climate Research Facility are stored at and distributed through the Archive.</description>
+    <name>ARM - Atmospheric Radiation Measurement Research Facility</name>
+    <description>ARM focuses on obtaining continuous measurements—supplemented by field campaigns—and providing data products that promote the advancement of climate models. Serving users worldwide, the ARM Data Center collects and archives approximately 25 terabytes of data per month. ARM data include routine data products, value-added products (VAPs), field campaign data, complementary external data products from collaborating programs, and data contributed by ARM principal investigators for use by the scientific community. Data quality reports, graphical displays of data availability/quality, and data plots are also available from the ARM Data Center.</description>
     <baseURL>https://gmn.test.dataone.org/arm</baseURL>
     <services>
       <service name="MNCore" version="v1" available="false"/>
