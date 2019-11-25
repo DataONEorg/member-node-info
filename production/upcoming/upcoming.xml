@@ -80,12 +80,11 @@
   </node>
   
 
- <!--
   <node replicate="false" synchronize="false" type="mn" state="down">
-    <identifier>urn:node:FIGSHARE_CARY</identifier>
-    <name>Cary Institute of Ecosystem Studies</name>
-    <description>Cary Institute of Ecosystem Studies generates rigorous scientific knowledge about ecological systems and their importance to human well-being.</description>
-    <baseURL>https://figshare-orc-1.test.dataone.org/mn</baseURL>
+    <identifier>urn:node:ARM</identifier>
+    <name>ARM - Atmospheric Radiation Measurement</name>
+    <description>Data collected through the routine operations and scientific field experiments of the ARM Climate Research Facility are stored at and distributed through the Archive.</description>
+    <baseURL>https://gmn.test.dataone.org/arm</baseURL>
     <services>
       <service name="MNCore" version="v1" available="false"/>
       <service name="MNRead" version="v1" available="false"/>
@@ -103,17 +102,16 @@
       <lastHarvested>2017-10-25T03:00:08.167+00:00</lastHarvested>
       <lastCompleteHarvest>1900-01-01T00:00:00.000+00:00</lastCompleteHarvest>
     </synchronization>
-    <subject>CN=urn:node:FIGSHARE_CARY,DC=dataone,DC=org</subject>
-    <contactSubject>CN=Monica Ihli A179626, O=Google, C=US, DC=cilogon, DC=org</contactSubject>
-    <property key="CN_date_upcoming">2018-09-28T10:00:00</property>
-    <property key="CN_info_url">https://www.caryinstitute.org/</property>
-    <property key="CN_logo_url">https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/originals/Cary_Institute.png</property>
+    <subject>CN=urn:node:ARM,DC=dataone,DC=org</subject>
+    <contactSubject>http://orcid.org/0000-0001-8849-7530</contactSubject>
+    <property key="CN_date_upcoming">2019-11-25T10:00:00</property>
+    <property key="CN_info_url">https://www.archive.arm.gov/</property>
     <property key="CN_date_operational">2020-01-01T00:00:00</property>
     <property key="CN_operational_status">upcoming</property>
-    <property key="CN_node_name">Cary Institute of Ecosystem Studies</property>
-    <property key="CN_location_lonlat">-73.73,41.78</property>
+    <property key="CN_node_name">ARM - Atmospheric Radiation Measurement</property>
+    <property key="CN_logo_url">https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/ARM.png</property>
+    <property key="CN_location_lonlat">-84.30,35.93</property>
   </node>
-  -->
   
   <!--  
   <node replicate="false" synchronize="false" type="mn" state="down">
