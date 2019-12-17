@@ -79,7 +79,7 @@
     <property key="CN_location_lonlat">-110.93,32.22</property>
   </node>
   
-
+<!--
   <node replicate="false" synchronize="false" type="mn" state="down">
     <identifier>urn:node:ARM</identifier>
     <name>ARM - Atmospheric Radiation Measurement Research Facility</name>
@@ -112,7 +112,7 @@
     <property key="CN_logo_url">https://raw.githubusercontent.com/DataONEorg/member-node-info/master/production/graphics/web/ARM.png</property>
     <property key="CN_location_lonlat">-84.30,35.93</property>
   </node>
-  
+  -->
   <!--  
   <node replicate="false" synchronize="false" type="mn" state="down">
     <identifier>urn:node:CAS_CERN</identifier>
